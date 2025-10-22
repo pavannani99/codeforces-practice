@@ -1,0 +1,6 @@
+
+solution->
+inp = int(input())
+for _ in range(inp):
+    a, b = map(int, input().split())
+    print(b - a)
